@@ -8,8 +8,8 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "./tooltip.tsx";
-import { Button } from "./button.tsx";
+} from "@workspace/ui/components/tooltip.tsx";
+import { Button } from "@workspace/ui/components/button";
 
 export function ThemeToggle() {
   const { theme, setTheme, resolvedTheme } = useTheme();

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ThemeToggle } from "@workspace/ui/components/theme-toggle";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Header() {
   return (
